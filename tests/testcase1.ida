@@ -1,4 +1,1 @@
-    #
-    # TEST CASE 1
-    # YOUR TEST CASE GOES HERE
-    #
+ADD $t0 $0 33
