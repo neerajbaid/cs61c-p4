@@ -1,1 +1,7 @@
-SH $t1 $0 $0
+SH $t1 $t2 $t7
+DIV $t3 $t1 $t2
+MUL $t4 $t3 $t1
+REV $t5 $t4 3
+SL $t6 $t5 3
+JGT $t6
+SUB $t7 $t6 $t3

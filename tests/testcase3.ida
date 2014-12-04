@@ -1,1 +1,3 @@
-JAL $t3
+LH $t3 $t1 $0
+STU $t2 $t3 2222
+JAL $t2

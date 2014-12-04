@@ -1,2 +1,6 @@
-STU $t3 $0 22
-XOR $t4 $t3 $t4
+SUB $jc $t0 $t19
+SR $jc $jc 4
+JGE $jc
+
+OR  $jc $t0 $zero
+JNE $t1
