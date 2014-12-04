@@ -1,6 +1,3 @@
 SUB $jc $t0 $t19
 SR $jc $jc 4
 JGE $jc
-
-OR  $jc $t0 $zero
-JNE $t1

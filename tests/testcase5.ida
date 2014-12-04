@@ -1,0 +1,3 @@
+ADD $t0 $0 33
+ADD $sp $sp -4
+SW $sp $t0 $0
